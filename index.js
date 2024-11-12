@@ -19,8 +19,8 @@ app.set('views', path.join(__dirname, 'views'));
 const config = {
     user: 'azureuser',
     password: 'P@ssw0rd',
-    server: 'alexzgut.database.windows.net',
-    database: 'expenses',
+    server: 'database-server-sql.database.windows.net',
+    database: 'db',
     options: {
         encrypt: true,
         enableArithAbort: true
